@@ -1,1 +1,1 @@
-# SQL-Marcus-Ericsson-DE24
+# SQL course using duckdb
