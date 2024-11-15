@@ -21,3 +21,8 @@ SELECT
  	*EXCLUDE (salary, employee_residence , work_year)
 FROM
 	main.data_jobs; 
+	
+
+SELECT DISTINCT employment_type FROM main.data_jobs;
+
+SELECT DISTINCT experience_level FROM main.data_jobs;
