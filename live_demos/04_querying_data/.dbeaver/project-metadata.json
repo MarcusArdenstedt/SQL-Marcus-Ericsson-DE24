@@ -1,0 +1,1 @@
+{"resources":{"sql/aggregate_functions.sql":{"default-datasource":"duckdb_jdbc-1932f11997f-719db54bc312ee8c","default-catalog":"salaries"},"sql/query_salaries.sql":{"default-datasource":"duckdb_jdbc-1932f11997f-719db54bc312ee8c","default-catalog":"salaries"},"sql/sorting.sql":{"default-datasource":"duckdb_jdbc-1932f11997f-719db54bc312ee8c","default-catalog":"salaries"}}}
