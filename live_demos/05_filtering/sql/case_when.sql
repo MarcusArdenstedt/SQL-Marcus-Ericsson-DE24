@@ -14,7 +14,9 @@ SELECT
 	END AS experience_level, 
 	* EXCLUDE (experience_level)
 FROM
-	main.data_jobs;
+	main.data_jobs
+WHERE 
+	experience_level IN ('SE', 'MI', 'EN', 'EX');
 
 -- have i transformed my data?
 SELECT * FROM main.data_jobs;
@@ -27,9 +29,10 @@ experience_level = CASE
 		WHEN experience_level = 'MI' THEN 'Mid level'
 		WHEN experience_level = 'EN' THEN 'Entry level'
 		WHEN experience_level = 'EX' THEN 'Expert'
-	END;
+		ELSE experience_level 
+	END
 WHERE 
-	experience_level IN ('SE, MI, EN, EX')
+	experience_level IN ('SE', 'MI', 'EN', 'EX');
 
 SELECT DISTINCT experience_level FROM main.data_jobs;
 
