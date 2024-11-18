@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-1933ebe5ff7-4ec5463b78788eb1": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "salaries.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\live_demos\\05_filtering\\data\\salaries.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\live_demos\\05_filtering\\data\\salaries.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
