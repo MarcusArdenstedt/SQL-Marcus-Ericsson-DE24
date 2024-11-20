@@ -2,7 +2,12 @@ SELECT * FROM main.data_jobs;
 
 SELECT COUNT(*) FROM main.data_jobs;
 -- filtering salary_in_usd lower than 50k
-SELECT * FROM main.data_jobs WHERE salary_in_usd < 50000;
+SELECT
+	*
+FROM
+	main.data_jobs
+WHERE
+	salary_in_usd < 50000;
 
 SELECT
 	COUNT(*) AS number_rows_lower_than_50k
