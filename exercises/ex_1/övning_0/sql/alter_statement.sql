@@ -20,3 +20,33 @@ SET
 
 
 
+-- ADD column salary level with categories LOW, MEDIUM, HIGH, INSANELY HIGH
+ALTER TABLE main.cleaned_salaries ADD salary_level VARCHAR;
+
+UPDATE main.cleaned_salaries 
+SET
+	salary_level = 'LOW'
+WHERE
+	swedish_currency_salary_monthly BETWEEN 0 AND 30000;
+
+UPDATE main.cleaned_salaries
+SET 
+	salary_level = 'MEDIUM'
+WHERE 
+	swedish_currency_salary_monthly BETWEEN 30001 AND 69999;
+
+
+UPDATE
+	main.cleaned_salaries
+SET salary_level =
+	CASE
+		WHEN swedish_currency_salary_monthly BETWEEN 70000 AND 99999 THEN 'HIGH'
+		WHEN swedish_currency_salary_monthly > 100000 THEN 'INSANELY HIGH'
+	END
+WHERE swedish_currency_salary_monthly >= 70000;
+
+
+
+
+
+
