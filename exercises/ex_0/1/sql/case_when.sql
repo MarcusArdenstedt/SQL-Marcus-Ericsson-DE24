@@ -5,8 +5,5 @@ SELECT
 FROM
 	main.house_price;
 
-SELECT
-	COUNT(*) * 100 / SELECT COUNT(*) main.house_price
-	FROM main.house_price
 
 
