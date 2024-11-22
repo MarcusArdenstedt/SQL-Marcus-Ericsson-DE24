@@ -1,6 +1,6 @@
 SELECT * FROM main.house_price;
 
--- statistics for minimum, mean, median and max price homes sold
+--  1. g)statistics for minimum, mean, median and max price homes sold
 SELECT 
 	MIN(final_price) AS min_sold,
 	ROUND(AVG(final_price)) AS mean_sold,

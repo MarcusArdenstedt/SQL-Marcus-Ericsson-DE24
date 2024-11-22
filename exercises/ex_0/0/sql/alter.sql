@@ -9,3 +9,6 @@ WHERE week IN (46);
 SELECT * FROM main.course_structure ORDER BY week; 
  
 
+UPDATE main.course_structure 
+SET learnt = TRUE
+WHERE week IN (47);
