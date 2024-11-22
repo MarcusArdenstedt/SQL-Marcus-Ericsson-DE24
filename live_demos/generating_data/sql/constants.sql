@@ -17,5 +17,4 @@ VALUES (1,
 'Johanna'),
 (3,
 'Mustafa')) AS t(id, name)); 
-
 desc;
