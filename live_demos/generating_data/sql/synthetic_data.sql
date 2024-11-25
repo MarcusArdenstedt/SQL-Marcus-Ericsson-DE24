@@ -26,4 +26,3 @@ FROM
 		'student_' || id AS student,
 		ROUND(RANDOM()* 100) AS score
 	);
-	

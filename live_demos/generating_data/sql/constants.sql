@@ -18,3 +18,13 @@ VALUES (1,
 (3,
 'Mustafa')) AS t(id, name)); 
 desc;
+
+SELECT 42;
+
+VALUES (1), (2), (3), (4), (5);
+
+SELECT 
+	*
+FROM (
+VALUES (1, 'AGNES'), (2, 'MAX'), (3, 'BOB')) AS t(Kund_id, Namn);
+
