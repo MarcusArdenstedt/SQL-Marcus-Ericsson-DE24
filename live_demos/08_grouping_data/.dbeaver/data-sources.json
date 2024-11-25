@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-19362b2e446-2f6576f8da490afa": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "google_searches.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\live_demos\\08_grouping_data\\data\\google_searches.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\live_demos\\08_grouping_data\\data\\google_searches.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
