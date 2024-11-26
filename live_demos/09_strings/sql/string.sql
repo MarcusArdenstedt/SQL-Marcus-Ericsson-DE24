@@ -11,7 +11,7 @@ FROM
 	staging.sql_glossary;
 
 
--- concatignate
+-- concatenate
 SELECT UPPER(SUBSTRING('hej', 1, 1)) || 'ej' || ' ' || UPPER('de24');
 
 
