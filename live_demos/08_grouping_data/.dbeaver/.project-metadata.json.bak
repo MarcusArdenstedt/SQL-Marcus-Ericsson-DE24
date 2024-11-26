@@ -1,1 +1,1 @@
-{"resources":{"sql/Script.sql":{"default-datasource":"duckdb_jdbc-19362b2e446-2f6576f8da490afa"}}}
+{"resources":{"sql/eda_food.sql":{"default-datasource":"duckdb_jdbc-19362b2e446-2f6576f8da490afa","default-catalog":"google_searches"},"sql/group_by.sql":{"default-datasource":"duckdb_jdbc-19362b2e446-2f6576f8da490afa"},"sql/transformation.sql":{"default-datasource":"duckdb_jdbc-19362b2e446-2f6576f8da490afa","default-catalog":"google_searches"}}}
