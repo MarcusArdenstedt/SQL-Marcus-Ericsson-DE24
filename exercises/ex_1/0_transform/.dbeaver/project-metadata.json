@@ -1,0 +1,1 @@
+{"resources":{"sql/0_transform.sql":{"default-datasource":"duckdb_jdbc-19376fd1a97-1094418d0b06f251","default-catalog":"salaries"},"sql/add_column.sql":{"default-datasource":"duckdb_jdbc-19376fd1a97-1094418d0b06f251","default-catalog":"salaries"},"sql/create_table.sql":{"default-datasource":"duckdb_jdbc-19376fd1a97-1094418d0b06f251","default-catalog":"salaries"}}}
