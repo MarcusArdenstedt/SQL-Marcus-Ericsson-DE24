@@ -12,8 +12,5 @@ DESC TABLE cleaned_salries;
 
 -- second approach -> add new cols
 
-SELECT
-	salary_sek_yearly,
-	salary_sek_monthly
-FROM
-	main.cleaned_salries;
+
+
