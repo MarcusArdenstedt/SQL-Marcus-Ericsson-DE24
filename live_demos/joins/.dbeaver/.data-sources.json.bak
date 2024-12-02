@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-19388ea19a0-1b24aa78270f69ae": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "plants.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\live_demos\\joins\\data\\plants.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\live_demos\\joins\\data\\plants.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

@@ -1,0 +1,1 @@
+{"resources":{"sql/join_sakila.sql":{"default-datasource":"duckdb_jdbc-19388f00865-4cb27b9aad226906","default-catalog":"sakila"},"sql/joins.sql":{"default-datasource":"duckdb_jdbc-19388ea19a0-1b24aa78270f69ae","default-catalog":"plants"}}}
