@@ -75,3 +75,10 @@ SELECT
 	*
 FROM 
 	refined.sql_glossary;
+
+SELECT 
+	REPLACE(example, 'select', 'SELECT'),
+	REPLACE(example, 'from', 'FROM')
+FROM 
+	refined.sql_glossary sg;
+
