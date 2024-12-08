@@ -1,0 +1,1 @@
+{"resources":{"sql/eda_sakila.sql":{"default-datasource":"duckdb_jdbc-193876e1715-7f17b700d398395a","default-catalog":"sakila"},"sql/set_operations.sql":{"default-datasource":"duckdb_jdbc-19387541fcc-4d8a8a160941b212","default-catalog":"electronic_shop"}}}

@@ -1,0 +1,49 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-19387541fcc-4d8a8a160941b212": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "electronic_shop.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\exercises\\ex_2\\2_eda_sakila\\data\\electronic_shop.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\exercises\\ex_2\\2_eda_sakila\\data\\electronic_shop.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"duckdb_jdbc-193876e1715-7f17b700d398395a": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "sakila.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\exercises\\ex_2\\2_eda_sakila\\data\\sakila.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\Marcus\\Documents\\STI\\SQL\\github\\SQL-Marcus-Ericsson-DE24\\exercises\\ex_2\\2_eda_sakila\\data\\sakila.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
