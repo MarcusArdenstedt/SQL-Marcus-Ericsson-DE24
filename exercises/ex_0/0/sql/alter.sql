@@ -12,3 +12,14 @@ SELECT * FROM main.course_structure ORDER BY week;
 UPDATE main.course_structure 
 SET learnt = TRUE
 WHERE week IN (47);
+
+SELECT 
+	*
+FROM 
+	main.course_structure cs;
+	
+UPDATE
+	main.course_structure
+SET learnt = TRUE 
+WHERE week IN (48);
+

@@ -8,7 +8,6 @@ SELECT
 FROM
 	staging.sql_glossary;
 	
--- getitime []
 SELECT 
 	sql_word,
 	sql_word[0],

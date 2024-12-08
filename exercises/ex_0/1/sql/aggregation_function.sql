@@ -1,5 +1,6 @@
 SELECT * FROM main.house_price;
 
+
 --  1. g)statistics for minimum, mean, median and max price homes sold
 SELECT 
 	MIN(final_price) AS min_sold,
@@ -23,3 +24,8 @@ SELECT
 	COUNT(DISTINCT commune) AS number_unique_commune
 FROM
 	main.house_price;
+	
+SELECT * FROM main.house_price hp;
+SELECT * FROM house_price;
+SELECT * FROM staging;
+DESC;

@@ -1,1 +1,1 @@
-{"resources":{"sql/Script.sql":{"default-datasource":"duckdb_jdbc-19386abff4c-702461c34a4874bd"}}}
+{"resources":{"sql/eda_sakila.sql":{"default-datasource":"duckdb_jdbc-193870f165f-552db6e75c7e4057","default-catalog":"sakila"},"sql/set_operations.sql":{"default-datasource":"duckdb_jdbc-19386abff4c-702461c34a4874bd"},"sql/set_operations_sakila.sql":{"default-datasource":"duckdb_jdbc-193870f165f-552db6e75c7e4057","default-catalog":"sakila"}}}

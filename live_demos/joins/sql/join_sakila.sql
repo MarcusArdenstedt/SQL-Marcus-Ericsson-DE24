@@ -62,6 +62,5 @@ LEFT JOIN main.address a ON
 LEFT JOIN main.city c ON a.city_id = c.city_id 
 LEFT JOIN main.country c2 ON c2.country_id = c.country_id;
 
-FROM main.actor a 
-SELECT *;
+
 

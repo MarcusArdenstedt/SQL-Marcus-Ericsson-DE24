@@ -23,3 +23,17 @@ SELECT
 	'g') AS example
 FROM
 	refined.sql_glossary;
+	
+UPDATE
+	refined.sql_glossary
+SET
+	example = UPPER(example);
+	
+UPDATE 
+	refined.sql_glossary 
+SET 
+    description = REPLACE(TRIM(description), '  ', ' '),
+	example = REPLACE(REPLACE(REGEXP_REPLACE(TRIM(example), ' +;', ';'), ' ,', ','), '  ', ' ');
+
+
+
