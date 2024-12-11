@@ -1,6 +1,0 @@
-# dbeaver
-.project
-.dbeaver
-
-# duckdb
-*.wal
