@@ -27,7 +27,7 @@ FROM
 	LIMIT 10;
 	
 
--- cjoose which columns to return
+-- choose which columns to return
 SELECT
 	customer_id,
 	amount 
@@ -63,7 +63,17 @@ WHERE
 	amount > 4.2
 ORDER BY 
 	amount;
-	
+
+-- without hardcoding
+SELECT 
+	*
+FROM 
+	main.payment 
+WHERE amount >= (SELECT AVG(amount) FROM main.payment)
+ORDER BY amount;
+
+
+
 -- create a new column with amount classification
 SELECT
 	amount,
@@ -109,9 +119,9 @@ FROM
 GROUP BY
 	cost_level;
 	
+SELECT * FROM main.payment_level pl;
 	
 	
-	
-	
+SELECT * FROM information_schema.schemata;
 	
 	

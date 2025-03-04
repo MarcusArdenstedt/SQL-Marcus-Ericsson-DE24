@@ -35,5 +35,14 @@ SET
     description = REPLACE(TRIM(description), '  ', ' '),
 	example = REPLACE(REPLACE(REGEXP_REPLACE(TRIM(example), ' +;', ';'), ' ,', ','), '  ', ' ');
 
+CREATE TABLE IF NOT EXISTS refined.ny AS(
+SELECT
+	sql_word,
+	CONCAT('ord: ', sql_word) AS concat
+FROM refined.sql_glossary sg);
+
+-- using DDL(Data difinition Language) to delete entire table
+DROP TABLE refined.ny;
+
 
 
